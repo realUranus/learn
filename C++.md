@@ -8,3 +8,7 @@ https://www.cprogramming.com/tutorial/function-pointers.html
 
 #### Googletest
 
+#### 关键字
+##### const
+###### const type qualifier
+
