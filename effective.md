@@ -29,5 +29,20 @@ STL 迭代器:T\* const. 指针本身是常量,所以不能指向其他的类型
 
 
 
+#### 13 Use objects to manage resources
+xxx = creat()
+...
+delete xxx
+如果...部分有代码return了怎么办呢？
+解决：将资源放在对象内，利用析构自动调用的方法来释放资源。
+shared_ptr和auto_ptr
+
+
+
+
+
+
+
+
 
 
