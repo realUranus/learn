@@ -1,3 +1,6 @@
+#### official tutorial
+https://cmake.org/cmake/help/v3.17/guide/tutorial/index.html
+
 
 #### basic
 
@@ -21,6 +24,11 @@ include_directories()
 #### 链接库
 find_library()
 target_link_libraries()
+
+#### Boost 引入
+https://cmake.org/cmake/help/v3.15/module/FindBoost.html
+首先要用find_package()指明Boost和版本，如果有组件，还要指明组件
+然后再用target_link_libraries()将组件和目标链接起来。
 
 
 
